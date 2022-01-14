@@ -102,11 +102,17 @@ button{
 }
 
 /* display item for sale */
+h2{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 32px;
+}
 .items{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    padding: 0 17rem 0 17rem;
+    grid-row-gap: 40px;
+    /* padding: 0 196px 0 196px; */
 
 }
 
@@ -162,4 +168,14 @@ button{
     font-family: 'Inter', sans-serif;
     padding-top: 4px;
     color: #787885;
+}
+#seemore, .pink{
+    text-decoration: none;
+    color: #E02C6DDE;
+    font-size: 16px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px 70px 20px 0;
 }
