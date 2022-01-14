@@ -1,9 +1,10 @@
 /*-------------------
                     Universal Font
                                     ------------------------------*/
-
 body{
     font-family: 'Poppins', sans-serif;
+}
+main{
     background-color: #ffffff;
     margin: 4rem 7.5rem 0 7.5rem;
 }
@@ -177,14 +178,20 @@ h2{
     font-size: 16px;
 }
 #seemore{
-    float: right;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     display: flex;
     padding-top: 30px;
     padding-right: 7vw;
 }
+/* ----------
+        Own Part
+                 ----------- */
 
+#bg{
+    margin-top: 150px;
+
+}
 .fourty{
     width: 40%;
 }
@@ -203,7 +210,4 @@ h2{
 }
 #develop{
     padding: 1% 2% 3% 2%;
-}
-#bg{
-    margin-top: 150px;
 }
