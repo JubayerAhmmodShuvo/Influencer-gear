@@ -46,6 +46,10 @@ ul li a{
 .half-width img{
     width: 60%;
     margin-left: 8.5rem;
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 h1{
     font-size: 52px;
@@ -95,4 +99,67 @@ button{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+}
+
+/* display item for sale */
+.items{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 0 17rem 0 17rem;
+
+}
+
+.card{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.card img{
+    margin: 15px;
+    border-radius: 5px;
+}
+.description{
+    margin-left: 16px;
+}
+.price>h5, .rating , .title>h3, .info{
+    margin:0;
+    padding: 0;
+}
+.title{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.price>h5{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 8px;
+}
+.rating{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.rating > span {
+    font-size: 14px;
+    padding-left: 7px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC107;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.info{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    padding-top: 4px;
+    color: #787885;
 }
