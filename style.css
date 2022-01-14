@@ -88,7 +88,7 @@ button{
     height: 1px;
     background: linear-gradient(to right, rgba(148, 151, 151, 0) 10%, rgb(159, 173, 172) 20%, rgb(168, 184, 182) 80%, rgba(1, 254, 228, 0) 90%);
 }
-.logo-icons{
+.margin{
     margin-bottom: 100px;
 }
 .logos{
@@ -112,7 +112,8 @@ h2{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
-    /* padding: 0 196px 0 196px; */
+    grid-column-gap: 40px;
+    margin-left: 6vw;
 
 }
 
@@ -122,6 +123,7 @@ h2{
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+    margin: 0;
 }
 .card img{
     margin: 15px;
@@ -169,13 +171,39 @@ h2{
     padding-top: 4px;
     color: #787885;
 }
-#seemore, .pink{
+.pink{
     text-decoration: none;
     color: #E02C6DDE;
     font-size: 16px;
+}
+#seemore{
     float: right;
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 20px 70px 20px 0;
+    padding-top: 30px;
+    padding-right: 7vw;
+}
+
+.fourty{
+    width: 40%;
+}
+.fourty img{
+    width:80%;
+    margin-left: 19px;
+    border-radius: 5px;
+}
+.sixty{
+    width: 60%;
+}
+#own-heading{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+#develop{
+    padding: 1% 2% 3% 2%;
+}
+#bg{
+    margin-top: 150px;
 }
