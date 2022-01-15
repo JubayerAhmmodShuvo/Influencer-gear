@@ -67,7 +67,8 @@ h1{
 }
 .about-explore:hover{
     transform: skewY(-360deg);
-    transition: all 5s ease-in-out;
+    transition: all 6s ease;
+    color: lightcoral;
 }
 #animation:hover{
     transform: scale(1.2) rotate(360deg);
