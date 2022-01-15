@@ -63,7 +63,27 @@ h1{
     font-size: 1rem;
     font-weight: 600;
     text-align: justify;
+    margin-bottom: 16px;
 }
+.about-explore:hover{
+    transform: skewY(-360deg);
+    transition: all 5s ease-in-out;
+}
+#animation:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: all 3s ease-in-out ;
+    color: #E02C6D;
+}
+/* @keyframes paraanimation{
+    0%{
+        width: 0ch;
+    }
+    100%{
+      width: 28ch;
+    }
+} */
+    
+
 button a{
     text-decoration: none;
     color: white;
