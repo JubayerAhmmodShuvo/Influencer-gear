@@ -78,7 +78,7 @@ h1 {
     margin-bottom: 16px;
 }
 
-.about-explore:hover {
+.p-animation:hover {
     transform: skewY(-360deg);
     transition: all 6s ease;
     color: lightcoral;
@@ -161,8 +161,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
-    grid-column-gap: 40px;
-    margin-left: 6vw;
+    /* grid-column-gap: 40px; */
+    margin-left: 4vw;
 }
 
 .card {
@@ -245,7 +245,7 @@ h2 {
     align-items: center;
     display: flex;
     padding-top: 30px;
-    padding-right: 7vw;
+    padding-right: 4%;
 }
 
 
