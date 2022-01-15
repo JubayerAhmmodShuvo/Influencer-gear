@@ -61,8 +61,8 @@ nav ul li a {
     margin-left: 8.5rem;
     background-image: url('images/Circle\ design.svg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 }
 
 h1 {
